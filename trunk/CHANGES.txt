@@ -1,0 +1,16 @@
+0.9.0-SNAPSHOT
+ * supports Cassandra 1.1.5.
+ * merge with https://github.com/libjack/cassandra-gui to support all types of data including CompositeType
+ * added an option to show 2000 rows in a column family (cause sometimes 1000 is not enough)
+ * added an option to show 10000 rows in a column family (cause sometimes 2000 is not enough...)
+
+
+0.8.0-beta1
+ * supports 0.8.
+
+0.7.1
+ * fix Ability to refresh list of keyspaces (Issue 13)
+
+0.7.0
+ * add Create keyspace and remove keyspace
+ * add Create column family, remoce column family and truncate column family
